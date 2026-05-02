@@ -3,7 +3,7 @@
 from argparse import ArgumentParser
 from pandas import read_csv
 
-from ydata_profiling import ProfileReport
+from data_profiling import ProfileReport
 
 
 def generate_report(filename: str = 'data/dane.csv') -> None:

@@ -1,5 +1,5 @@
 # Simple Data Profiler
-This is a simple data profiler for CSV files built with the `ydata-profiling` Python library.
+This is a simple data profiler for CSV files built with the `fg-data-profiling` Python library.
 
 ## Installation
 First, create Python virtual environment and activate it:
@@ -27,7 +27,7 @@ If `-f <path_to_file>` is not provided, data profiling will be performed on the 
 Result is saved in `report.html` file in the project's root directory.
 
 ## Dependencies
-This project uses the `ydata-profiling` library, which is distributed under the MIT License.
+This project uses the `fg-data-profiling` library, which is distributed under the MIT License.
 
 ## Dataset
 
