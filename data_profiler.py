@@ -24,6 +24,6 @@ def generate_report(filename: str, output: str) -> None:
 if __name__ == '__main__':
     parser = ArgumentParser(description='Simple data profiler for .csv files.')
     parser.add_argument('-f', '--file', help='Path to .csv file', default='data/dane.csv')
-    parser.add_argument('-o', '--output', help='Path to output HTML report', default='report.html')
+    parser.add_argument('-o', '--output', help='Path to output HTML report', default='reports/report.html')
     args = parser.parse_args()
     generate_report(args.file, args.output)
